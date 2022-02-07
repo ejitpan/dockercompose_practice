@@ -1,0 +1,5 @@
+services:
+  web: 
+    build: app 
+    ports: 
+      - '9000:5000'
